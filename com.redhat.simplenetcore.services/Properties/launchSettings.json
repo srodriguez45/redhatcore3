@@ -1,0 +1,43 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:52623",
+      "sslPort": 0
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "FIRST": "primer mensaje desde IIS",
+        "SECOND": "Segundo mensaje desde IIS"
+      }
+    },
+    "com.redhat.simplenetcore.services": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "environmentVariables": {
+        "FIRST": "primer mensaje desde services",
+        "SECOND": "Segundo mensaje desde services"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/api/values",
+      "publishAllPorts": true,
+      "useSSL": false,
+      "environmentVariables": {
+        "FIRST": "primer mensaje desde docker",
+        "SECOND": "Segundo mensaje desde docker"
+      }
+    }
+  }
+}

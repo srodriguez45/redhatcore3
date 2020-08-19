@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TqbyhF0WaZaN57t4x8xL5A+4vmjFgZhC/YHgrhaEZmg3o0jgRwBLw67nFI+ALJvEXvueS6LAB9iVrUef7g15Fw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\source\\repos\\com.redhat.simplenetcore\\com.redhat.simplenetcore.services\\com.redhat.simplenetcore.services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
